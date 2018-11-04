@@ -1,0 +1,45 @@
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+header li {
+    padding: 0 10px;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.cards p {
+    width: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.firma {
+    flex-grow: 2;
+}
